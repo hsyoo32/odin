@@ -1,0 +1,75 @@
+% asym positive
+% 138706 6120 6120
+
+JUNG/Javax network, part of the Koblenz Network Collection
+===========================================================================
+
+This directory contains the TSV and related files of the subelj_jung-j network: This is the software class dependency network of the JUNG 2.0.1 and javax 1.6.0.7 libraries, namespaces edu.uci.ics.jung and java/javax. The network is directed. Nodes represent classes. An edge between them indicates that there exists a dependency between two classes. As there may be multiple references between classes the network has multiple edges.
+
+
+More information about the network is provided here: 
+http://konect.cc/networks/subelj_jung-j
+
+Files: 
+    meta.subelj_jung-j -- Metadata about the network 
+    out.subelj_jung-j -- The adjacency matrix of the network in whitespace-separated values format, with one edge per line
+      The meaning of the columns in out.subelj_jung-j are: 
+        First column: ID of from node 
+        Second column: ID of to node
+        Third column (if present): weight or multiplicity of edge
+        Fourth column (if present):  timestamp of edges Unix time
+        Third column: edge weight
+    ent.subelj_jung-j.class.name -- Contains the attribute `name` of entity `class` of the network
+
+
+Use the following References for citation:
+
+@MISC{konect:2017:subelj_jung-j,
+    title = {JUNG/Javax network dataset -- {KONECT}},
+    month = oct,
+    year = {2017},
+    url = {http://konect.cc/networks/subelj_jung-j}
+}
+
+@inproceedings{konect:dependency1,
+	title = {Software Systems through Complex Networks Science: Review, Analysis and Applications},
+	author = {\v{S}ubelj, Lovro and Bajec, Marko},
+	booktitle = {Proc. Int. Workshop on Software Min.},
+	year = {2012},
+	pages = {9--16},
+}
+
+@inproceedings{konect:dependency1,
+	title = {Software Systems through Complex Networks Science: Review, Analysis and Applications},
+	author = {\v{S}ubelj, Lovro and Bajec, Marko},
+	booktitle = {Proc. Int. Workshop on Software Min.},
+	year = {2012},
+	pages = {9--16},
+}
+
+
+@inproceedings{konect,
+	title = {{KONECT} -- {The} {Koblenz} {Network} {Collection}},
+	author = {Jérôme Kunegis},
+	year = {2013},
+	booktitle = {Proc. Int. Conf. on World Wide Web Companion},
+	pages = {1343--1350},
+	url = {http://dl.acm.org/citation.cfm?id=2488173},
+	url_presentation = {https://www.slideshare.net/kunegis/presentationwow},
+	url_web = {http://konect.cc/},
+	url_citations = {https://scholar.google.com/scholar?cites=7174338004474749050},
+}
+
+@inproceedings{konect,
+	title = {{KONECT} -- {The} {Koblenz} {Network} {Collection}},
+	author = {Jérôme Kunegis},
+	year = {2013},
+	booktitle = {Proc. Int. Conf. on World Wide Web Companion},
+	pages = {1343--1350},
+	url = {http://dl.acm.org/citation.cfm?id=2488173},
+	url_presentation = {https://www.slideshare.net/kunegis/presentationwow},
+	url_web = {http://konect.cc/},
+	url_citations = {https://scholar.google.com/scholar?cites=7174338004474749050},
+}
+
+

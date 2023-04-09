@@ -22,7 +22,7 @@ Warning: you may want to specify the "input_file" and "--emb_file" on your own.
 cd src
 python app.py --embedding_size=20 --epochs=200 --option=odin --disen_weight=0.5 --input_file=../_Data/ciaodvd/noniid-in-barrier_1.0/u1/u1.edgelist --emb_file=../_Emb/ciaodvd/noniid-in-barrier_1.0/odin/u1_odin_200_4_odin_0.5_dim60.emb --neg_sample_rate=4
 ```
-### embedding_size: the dimension of the embedding
+#### embedding_size: the dimension of the embedding
 ### epochs: the number of epochs
 ### option: the option of the algorithm
 ### disen_weight: the weight of the disentanglement loss

@@ -23,12 +23,12 @@ cd src
 python app.py --embedding_size=20 --epochs=200 --option=odin --disen_weight=0.5 --input_file=../_Data/ciaodvd/noniid-in-barrier_1.0/u1/u1.edgelist --emb_file=../_Emb/ciaodvd/noniid-in-barrier_1.0/odin/u1_odin_200_4_odin_0.5_dim60.emb --neg_sample_rate=4
 ```
 #### embedding_size: the dimension of the embedding
-### epochs: the number of epochs
-### option: the option of the algorithm
-### disen_weight: the weight of the disentanglement loss
-### input_file: the input file
-### emb_file: the embedding saving file
-### neg_sample_rate: the number of negative samples
+#### epochs: the number of epochs
+#### option: the option of the algorithm
+#### disen_weight: the weight of the disentanglement loss
+#### input_file: the input file
+#### emb_file: the embedding saving file
+#### neg_sample_rate: the number of negative samples
 
 (Recommended) You can also use the "tester.py" and "_execute_methods.py" to run the odin with the user-specified hyperparameters, as well as to evaluate the embeddings via the link prediction tasks.
 ```bash

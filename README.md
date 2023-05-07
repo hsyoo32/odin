@@ -1,8 +1,7 @@
 # ODIN
-- The repository is the implementation of [ODIN](https://dl.acm.org/doi/10.1145/3543507.3583271)
-
-Disentangling Degree-related Biases and Interest for Out-of-Distribution Generalized Directed Network Embedding
-Hyunsik Yoo, Yeon-Chang Lee, Kijung Shin, Sang-Wook Kim
+The repository is the implementation of [ODIN](https://dl.acm.org/doi/10.1145/3543507.3583271): 
+Disentangling Degree-related Biases and Interest for Out-of-Distribution Generalized Directed Network Embedding,
+Hyunsik Yoo, Yeon-Chang Lee, Kijung Shin, Sang-Wook Kim,
 WWW '23: Proceedings of the ACM Web Conference 2023
 
 ## Requirements
